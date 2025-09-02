@@ -49,4 +49,4 @@ func readInt(prompt: String) -> Int {
 
 
 ```
-[Мій скріншот](/Users/admin/Desktop/ScreenShot.png)
+![Мій скріншот](/Users/admin/Desktop/ScreenShot.png)
