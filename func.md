@@ -1,3 +1,7 @@
+## Додаткові завдання для вивчення throws, func
+
+Задача для заданих чисел і отримання з них середнє арифметичне 
+```swift
 enum MathErorr: Error{
     case divisionByZero
     case negativeNumbersNotAllowed
@@ -20,7 +24,9 @@ do {
 } catch MathErorr.negativeNumbersNotAllowed{
     print("Не допускаються negative числа!")
 }
-
+```
+Задача для заданого пароля, перевірка його, має бути не менше 8 символів, і також містити у собі числа, якщо щось не правильно, виводиться помилка
+```swift
 enum PasswordError: Error{
     case tooShort
     case noDigit
@@ -50,7 +56,9 @@ do{
 }catch  PasswordError.noDigit{
     print("Password must contain a digit")
 }
-
+```
+Задача на перевірку заданого масиву та пошук максимального елементу за допомогою цикла, масив не має бути пустим
+```swift
 enum ArrayError: Error {
     case empty
 }
@@ -74,3 +82,4 @@ do {
 } catch ArrayError.empty{
     print("array is empty")
 }
+```
