@@ -1,4 +1,4 @@
-# Main la boratory
+# laboratory 1
 
 ```swift
 func readDouble(prompt: String) -> Double {
@@ -49,4 +49,6 @@ func readInt(prompt: String) -> Int {
 
 
 ```
-![Мій скріншот](/Users/admin/Desktop/ScreenShot.png)
+<img width="557" height="221" alt="ScreenShot" src="https://github.com/user-attachments/assets/00c4b429-cec3-4773-8122-e5a803224241" />
+
+
