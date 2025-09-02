@@ -1,3 +1,6 @@
+# Main la boratory
+
+```swift
 import Foundation
 
 func readDouble(prompt: String) -> Double {
@@ -44,3 +47,4 @@ if userOut > userHome {
 } else if userOut == userHome {
     print("Зробіть власний вибір)")
 }
+```
