@@ -1,3 +1,6 @@
+## Додаткові завдання на вивчення циклів
+
+```swift
 for i in 1...10{
     if i.isMultiple(of: 2){
         print("\(i)")
@@ -5,11 +8,13 @@ for i in 1...10{
         print("harosh")
     }
 }
- Задачі на for
+```
+Задачі на for
 	1.	Вивести числа від 1 до 10.
 	2.	Вивести тільки парні числа від 1 до 20.
-
- var i = 2
+ 
+```swift
+ var 2
 if i > 0 {
     print("Позитивне")
 }else if i < 0{
@@ -17,21 +22,22 @@ if i > 0 {
 }else if i == 0{
     print("Нуль")
 }
+```
 Написати програму, яка перевіряє число:
 	•	якщо воно більше 0 → надрукувати “Позитивне”,
 	•	якщо менше 0 → “Негативне”,
 	•	якщо дорівнює 0 → “Нуль”.
-
-
+```swift
 var count = 0
 while count < 5{
     count+=1
     print("\(count)")
 }
 print("Count is \(count)")
-
+```
 Вивести числа від 1 до 5 за допомогою while.
 
+```swift
 enum Day{
     case Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 }
@@ -42,7 +48,7 @@ case .Monday, .Tuesday, .Wednesday, .Thursday, .Friday:
     case .Saturday, .Sunday:
     print("Weekend")
     }
-
+```
 Створи enum Day з днями тижня (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday).
 За допомогою switch надрукуй:
 	•	"Робочий день", якщо день з понеділка по п’ятницю,
