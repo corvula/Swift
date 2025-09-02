@@ -1,4 +1,4 @@
-##Задача з Checkpoint3
+## Задача з Checkpoint3
 
 The problem is called fizz buzz, and has been used in job interviews, university entrance tests, and more for as long as I can remember. Your goal is to loop from 1 through 100, and for each number:
 
