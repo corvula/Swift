@@ -1,9 +1,6 @@
 ## Лабораторна 1, Теорія похибок і комп’ютерна арифметика
 
 ```swift
-
-import Foundation
-
 func taylorSeries(_ x: Double, _ n: Int) -> Double {
     guard x > 0 else {
         print("x must be greater than 0")
