@@ -1,5 +1,6 @@
 ## Завдання виконано на основі здобутих знань, щодо теми VStack,ZStack та UI
 
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -104,5 +105,6 @@ struct ContentView: View {
     ContentView()
 }
 ```
-<img width="371" height="791" alt="Знімок екрана 2025-09-22 о 3 20 58 пп" src="https://github.com/user-attachments/assets/8971f5b0-da8c-4119-a3d3-e96a171c8e13" />
+<img width="371" height="791" alt="Знімок екрана 2025-09-22 о 3 20 58 пп" src="https://github.com/user-attachments/assets/09c8f71b-05e8-4e99-9bea-a273699758f8" />
+
 
