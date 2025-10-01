@@ -194,6 +194,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-``` swift
+``` 
 
 <img width="402" height="678" alt="Знімок екрана 2025-10-01 о 3 16 10 пп" src="https://github.com/user-attachments/assets/f0b59fe5-a420-4e42-bbad-0a099401e1fe" />
